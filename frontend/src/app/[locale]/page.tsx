@@ -15,11 +15,11 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             SalesElite
           </div>
           <div className="flex gap-4">
-            <Link href={`/${locale}/auth/login`} className="px-5 py-2 rounded-full text-sm font-medium hover:bg-white/5 transition-colors">
-              Log in
+            <Link href={`/${locale}/auth/company`} className="px-5 py-2 rounded-full text-sm font-medium hover:bg-white/5 transition-colors">
+              Company Login
             </Link>
-            <Link href={`/${locale}/auth/signup`} className="px-5 py-2 rounded-full text-sm font-medium bg-emerald-500 hover:bg-emerald-600 text-slate-950 transition-all shadow-[0_0_20px_rgba(16,185,129,0.3)]">
-              Get Started
+            <Link href={`/${locale}/auth/rep`} className="px-5 py-2 rounded-full text-sm font-medium bg-emerald-500 hover:bg-emerald-600 text-slate-950 transition-all shadow-[0_0_20px_rgba(16,185,129,0.3)]">
+              Rep Application
             </Link>
           </div>
         </div>
